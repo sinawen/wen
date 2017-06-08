@@ -1,0 +1,60 @@
+div{
+  position: absolute;
+}
+
+
+$width: 20px;
+$height: 10px;
+$absatz: $height*20;
+$versatz: $width*20;
+
+
+
+div.one {
+  width: $width*2;
+  height: $height*2;
+  top: $absatz;
+  left: $versatz;
+  background-color: #EC7063;
+  border: solid #EC7063;  
+}
+
+
+div.two {
+  width: $width*3;
+  height: $height*4;
+  top: $absatz*9/10;
+  left: $versatz+$height*6;
+  background-color: #58D68D;
+  border: solid #58D68D;
+}
+
+
+div.three {
+  width: $width*4;
+  height: $height*6;
+  top: $absatz*4/5;
+  left: $versatz+$height*14;
+  background-color: #F4D03F; 
+  border: solid #73C6B6; 
+}
+
+
+div.four {
+  width: $width*3;
+  height: $height*4;
+  top: $absatz*9/10;
+  left: $versatz+$height*24;
+  background-color: #73C6B6;
+  border: solid #73C6B6;
+}
+
+div.five {
+  width: $width*2;
+  height: $height*2;
+  top: $absatz;
+  left: $versatz+$height*32;
+  background-color: #EC7063;
+  border: solid #EC7063 ;   
+  
+}
